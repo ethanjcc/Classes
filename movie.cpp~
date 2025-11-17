@@ -1,0 +1,6 @@
+#include "movie.h";
+movie::media(char[]d, floatdd, floatr) {
+  strcpy(director, d);
+  duration = dd;
+  rating = r;
+}

@@ -1,0 +1,6 @@
+#include "media.h"
+class videogame : media {
+  char publisher [40]
+  float rating
+  media(char[], float)
+};

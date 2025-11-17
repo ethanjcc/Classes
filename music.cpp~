@@ -1,0 +1,6 @@
+#include "music.h"
+videogame::media(char[]a, floatr, char[]p) {
+  strycpy(artist, a);
+  rating = r;
+  strycpy(publisher, p);
+}

@@ -1,0 +1,7 @@
+#include "media.h"
+class music : media {
+  char artist [40];
+  float duration;
+  char publisher [40];
+  music(char[], float);
+};

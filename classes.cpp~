@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+media.h
+class media {
+public :
+  char title [40]
+  int year
+  media(char[], int);
+};
+media.cpp
+#include "media.h"
+media::media(char[]t, inty) {
+  strcpy(title, t);
+  year = y;
+}
+videogame.h
+class videogame : media
+  char publisher [40]
+  float rating
+media(char[]. float)
+videogame.cpp
+#include "videogame.h"
+videogame::media(char[]p, floatr) {
+  strycpy(publisher, p);
+  rating = r;
+}
